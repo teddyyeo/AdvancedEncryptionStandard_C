@@ -1,7 +1,12 @@
-#include "aes.h"
+//2022 KU SMRT Assignment for ModernCrypto
 #include "lookup.h"
+#include <stdint.h>
 
-//Student NUmber & Name
+typedef uint8_t AES_STATE_t[16];
+typedef uint8_t AES128_KEY_t[16];
+typedef uint8_t AES192_KEY_t[24];
+typedef uint8_t AES256_KEY_t[32];
+//Student Number & Name
 char SUBMISSION_INFO[256] = "2021350010_여태욱";
 
 //Prints state as hexadecimal
